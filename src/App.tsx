@@ -3,7 +3,9 @@ import { StyleSheet, Text, View } from 'react-native'
 
 const styles = StyleSheet.create({
   containerView: {
-    flex: 1
+    flex: 1,
+    justifyContent:"center",
+    alignItems:"center"
   }
 })
 
