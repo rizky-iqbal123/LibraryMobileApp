@@ -1,13 +1,8 @@
 import React from 'react'
-import { Text, View } from 'react-native'
-import { styles } from '@global/styles'
+import Routes from '@root/routes'
 
 const App = () => {
-  return (
-    <View style={styles.container}>
-      <Text>Hello World!</Text>
-    </View>
-  )
+  return <Routes />
 }
 
 export default App
