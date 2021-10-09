@@ -1,17 +1,10 @@
 import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
-
-const styles = StyleSheet.create({
-  containerView: {
-    flex: 1,
-    justifyContent:"center",
-    alignItems:"center"
-  }
-})
+import { Text, View } from 'react-native'
+import { styles } from '@global/styles'
 
 const App = () => {
   return (
-    <View style={styles.containerView}>
+    <View style={styles.container}>
       <Text>Hello World!</Text>
     </View>
   )
